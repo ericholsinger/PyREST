@@ -40,6 +40,6 @@ Success looks something like this:
 You'll need to have Docker installed.
 
 ```
-docker build -t pydemo .
-docker run -d -p 5000:5000 pydemo
+docker build -t pyrestdemo .
+docker run -d -p 5000:5000 pyrestdemo
 ```
