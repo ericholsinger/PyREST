@@ -7,6 +7,19 @@ Below you'll find instructions for
 
 
 ## Postman
+This repo uses Postman environments. It allows the API tests to be the same by just selecting an Environment to populate variables which change. (For example, the API URL will likely change with new deployments.)
+
+### Environment files
+- Localhost.postman_environment.json
+
+### API Collection files
+These files use environment variables defined in the files above
+- Python Flask Demo.postman_collection.json
+
+There are 3 simple endpoints in the App which differ only by the HTTP Request Method
+-  GET
+-  POST
+-  PUT
 
 
 ## Running from a terminal
