@@ -37,6 +37,7 @@ python -m flask run
 
 ### linux
 ```
+pipenv install -r requirements.txt
 source .venv\Scripts\activate
 python -m flask run
 ```
