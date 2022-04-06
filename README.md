@@ -30,16 +30,17 @@ Running the demo from the commandline is two steps
 Specific OS Instructions:
 ### windows
 ```
-pipenv install -r requirements.txt
-.venv\Scripts\activate
+python -m venv venv
+venv\Scripts\activate
+pipenv install -r windows-requirements.txt
 python -m flask run
 ```
 
 ### linux
 ```
-pipenv install -r requirements.txt
-source .venv\Scripts\activate
-python -m flask run
+python3 -m venv venv && source venv/bin/activate
+python3 -m pip install -r linux-requirements.txt
+python3 -m flask run
 ```
 
 Success looks something like this:
